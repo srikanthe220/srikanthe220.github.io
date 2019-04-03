@@ -1,5 +1,6 @@
 /*! trac-script-v2.1.2 2019-01-16 */ !
 function(a, b) {
+	console.log("in main function");
 	function c() {
 			try {
 					if (N) {
