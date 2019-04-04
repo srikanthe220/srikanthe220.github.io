@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body data-spy="scroll" data-target=".navbar-collapse" onload="dataLayer.push({'event': 'visibilityCheck'})">
+    <body data-spy="scroll" data-target=".navbar-collapse">
         <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ5T77J"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -104,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="row">
                         <div class="col-sm-12 ">
                             <div class="main_home_slider text-center">
-                                <div class="single_home_slider">
+                                <div class="single_home_slider" onclick="dataLayer.push({'event': 'visibilityCheck'})">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h1>Non-government Organization</h1>
                                         <p class="subtitle">Small Services with big dreams</p>
